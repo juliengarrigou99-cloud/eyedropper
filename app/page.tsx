@@ -76,7 +76,43 @@ export default function Home() {
           ))}
         </div>
       </section>
+{/* Missions */}
+      <section id="missions" className="px-16 py-20 border-t border-white/10">
+        <h2 className="text-3xl font-bold text-center mb-4">Missions disponibles</h2>
+        <p className="text-center text-white/50 mb-12">Rejoins la plateforme pour voir toutes les missions</p>
+        <div className="grid grid-cols-3 gap-6">
+          {[
+            { pays: "🇹🇭 Thaïlande", titre: "Vérification usine textile Bangkok", heures: "2h", gain: "56€" },
+            { pays: "🇻🇳 Vietnam", titre: "Audit fournisseur électronique Hanoï", heures: "3h", gain: "84€" },
+            { pays: "🇨🇳 Chine", titre: "Contrôle qualité produits Guangzhou", heures: "4h", gain: "112€" },
+          ].map((mission) => (
+            <div key={mission.titre} className="bg-white/5 rounded-2xl p-6 border border-white/10">
+              <div className="text-sm text-white/40 mb-2">{mission.pays}</div>
+              <h3 className="font-bold mb-4">{mission.titre}</h3>
+              <div className="flex justify-between items-center">
+                <span className="text-white/40 text-sm">⏱ {mission.heures}</span>
+                <span className="text-[#FF6B35] font-bold">{mission.gain}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="text-center mt-10">
+          <Link href="/register" className="px-8 py-4 bg-[#FF6B35] rounded-xl font-bold hover:bg-[#e55a25] transition">
+            Voir toutes les missions
+          </Link>
+        </div>
+      </section>
 
+      {/* Contact */}
+      <section id="contact" className="px-16 py-20 border-t border-white/10">
+        <h2 className="text-3xl font-bold text-center mb-4">Contact</h2>
+        <p className="text-center text-white/50 mb-8">Une question ? On te répond rapidement.</p>
+        <div className="max-w-md mx-auto text-center">
+          <a href="mailto:contact@eyedropper.io" className="text-[#FF6B35] text-lg hover:underline">
+            contact@eyedropper.io
+          </a>
+        </div>
+      </section>
       {/* Footer */}
       <footer className="text-center py-8 border-t border-white/10 text-white/30 text-sm">
         © 2026 EyeDropper — Eyes on the Ground
