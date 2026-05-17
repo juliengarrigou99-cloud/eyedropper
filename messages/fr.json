@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "comment": "Comment ça marche",
+    "missions": "Missions",
+    "contact": "Contact",
+    "connexion": "Connexion",
+    "inscrire": "S'inscrire"
+  },
+  "hero": {
+    "tagline": "EYES ON THE GROUND",
+    "titre": "Gagne de l'argent",
+    "titre2": "en voyageant",
+    "description": "EyeDropper connecte les vendeurs en ligne avec des backpackers sur le terrain.",
+    "auditeur": "Devenir auditeur",
+    "mission": "Poster une mission"
+  },
+  "stats": {
+    "heure": "Par heure en moyenne",
+    "mission": "Par mission complète",
+    "paiement": "Paiement garanti"
+  },
+  "comment": {
+    "titre": "Comment ça marche",
+    "etape1titre": "Inscris-toi",
+    "etape1desc": "Crée ton profil gratuitement en 2 minutes.",
+    "etape2titre": "Choisis une mission",
+    "etape2desc": "Parcours les missions disponibles près de toi.",
+    "etape3titre": "Sois payé",
+    "etape3desc": "Exécute la mission et soumets ton rapport. Paiement immédiat."
+  }
+}

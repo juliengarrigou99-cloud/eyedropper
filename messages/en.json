@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "comment": "How it works",
+    "missions": "Missions",
+    "contact": "Contact",
+    "connexion": "Login",
+    "inscrire": "Sign up"
+  },
+  "hero": {
+    "tagline": "EYES ON THE GROUND",
+    "titre": "Earn money",
+    "titre2": "while travelling",
+    "description": "EyeDropper connects online sellers with backpackers on the ground.",
+    "auditeur": "Become an auditor",
+    "mission": "Post a mission"
+  },
+  "stats": {
+    "heure": "Per hour on average",
+    "mission": "Per complete mission",
+    "paiement": "Guaranteed payment"
+  },
+  "comment": {
+    "titre": "How it works",
+    "etape1titre": "Sign up",
+    "etape1desc": "Create your profile for free in 2 minutes.",
+    "etape2titre": "Choose a mission",
+    "etape2desc": "Browse available missions near you.",
+    "etape3titre": "Get paid",
+    "etape3desc": "Complete the mission and submit your report. Immediate payment."
+  }
+}

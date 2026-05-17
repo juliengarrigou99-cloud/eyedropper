@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "comment": "Cómo funciona",
+    "missions": "Misiones",
+    "contact": "Contacto",
+    "connexion": "Iniciar sesión",
+    "inscrire": "Registrarse"
+  },
+  "hero": {
+    "tagline": "EYES ON THE GROUND",
+    "titre": "Gana dinero",
+    "titre2": "viajando",
+    "description": "EyeDropper conecta vendedores en línea con mochileros sobre el terreno.",
+    "auditeur": "Convertirse en auditor",
+    "mission": "Publicar una misión"
+  },
+  "stats": {
+    "heure": "Por hora de media",
+    "mission": "Por misión completa",
+    "paiement": "Pago garantizado"
+  },
+  "comment": {
+    "titre": "Cómo funciona",
+    "etape1titre": "Regístrate",
+    "etape1desc": "Crea tu perfil gratis en 2 minutos.",
+    "etape2titre": "Elige una misión",
+    "etape2desc": "Explora las misiones disponibles cerca de ti.",
+    "etape3titre": "Cobra",
+    "etape3desc": "Completa la misión y envía tu informe. Pago inmediato."
+  }
+}
