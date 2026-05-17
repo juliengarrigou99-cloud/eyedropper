@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0A1628] text-white">
@@ -13,12 +15,12 @@ export default function Home() {
           <a href="#contact" className="hover:text-white transition">Contact</a>
         </nav>
         <div className="flex gap-3">
-          <button className="px-4 py-2 text-sm border border-white/20 rounded-lg hover:bg-white/10 transition">
+          <Link href="/login" className="px-4 py-2 text-sm border border-white/20 rounded-lg hover:bg-white/10 transition">
             Connexion
-          </button>
-          <button className="px-4 py-2 text-sm bg-[#FF6B35] rounded-lg hover:bg-[#e55a25] transition">
+          </Link>
+          <Link href="/register" className="px-4 py-2 text-sm bg-[#FF6B35] rounded-lg hover:bg-[#e55a25] transition">
             S'inscrire
-          </button>
+          </Link>
         </div>
       </header>
 
@@ -34,12 +36,12 @@ export default function Home() {
           Visite des fournisseurs, fais un rapport — et sois payé jusqu'à 140€ par mission.
         </p>
         <div className="flex gap-4">
-          <button className="px-8 py-4 bg-[#FF6B35] rounded-xl font-bold text-lg hover:bg-[#e55a25] transition">
+          <Link href="/register" className="px-8 py-4 bg-[#FF6B35] rounded-xl font-bold text-lg hover:bg-[#e55a25] transition">
             Devenir auditeur
-          </button>
-          <button className="px-8 py-4 border border-white/20 rounded-xl font-bold text-lg hover:bg-white/10 transition">
+          </Link>
+          <Link href="/mission" className="px-8 py-4 border border-white/20 rounded-xl font-bold text-lg hover:bg-white/10 transition">
             Poster une mission
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -77,7 +79,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="text-center py-8 border-t border-white/10 text-white/30 text-sm">
-        © 2025 EyeDropper — Eyes on the Ground
+        © 2026 EyeDropper — Eyes on the Ground
       </footer>
     </main>
   )
