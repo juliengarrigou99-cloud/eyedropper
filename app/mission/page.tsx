@@ -15,8 +15,9 @@ export default function Mission() {
   const [message, setMessage] = useState('')
 
   const prixTotal = parseInt(heures) * 40
-  const commission = prixTotal * 0.30
-  const gainAuditeur = prixTotal - commission
+  const fraisStripe = Math.round((prixTotal * 0.014 + 0.25) * 100) / 100
+  const gainAuditeur = Math.round(prixTotal * 0.70 * 100) / 100
+  const commission = Math.round((prixTotal * 0.30 - fraisStripe) * 100) / 100
 
   const handleSubmit = async () => {
     setLoading(true)
@@ -175,7 +176,11 @@ export default function Mission() {
                 <span>{heures}h × 40€</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-white/50">Commission plateforme (30%)</span>
+                <span className="text-white/50">Frais Stripe</span>
+                <span>{fraisStripe}€</span>
+              </div>
+              <div className="flex justify-between">
+                <span className="text-white/50">Commission plateforme nette</span>
                 <span>{commission}€</span>
               </div>
               <div className="flex justify-between">
